@@ -1,0 +1,14 @@
+{
+    "request": {
+        "command": "dataentry",
+        "title": "Please enter ssn",
+        "titleTextSize": "large",
+        "datatype": "ssn",
+        "hint": "123456789",
+        "minLength" : 3,
+        "maxLength" : 4,
+        "allowOnscreenCancel": "true",
+        "inputVisibility": "true",
+        "timeout": 30
+    }
+}

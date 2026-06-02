@@ -1,0 +1,24 @@
+[
+  {
+    "test_name": "TC1_Valid_SSN_Format",
+    "datatype": "ssn",
+    "title": "Please enter SSN",
+    "input_to_tap": "121212121",
+    "expected_response": "121-21-2121"
+  },
+  {
+    "test_name": "TC2_Different_SSN_Format",
+    "datatype": "ssn",
+    "title": "Please enter ssn",
+    "input_to_tap": "2222222",
+    "expected_response": "222-22-2222"
+  },
+  {
+    "test_name": "TC3_Valid_Phone_Format",
+    "title": "Please enter Phone",
+    "datatype": "phone",
+    "input_to_tap": "1212121212",
+    "expected_response": "(121) 212-1212"
+  }
+
+]
